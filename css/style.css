@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-family: 'Outfit', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    background-color: black;
+}
+
+body{
+    
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+video{
+    position: absolute;
+    top: 0px;
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.formulario{
+    background: #F9F9F9;
+    position: absolute;
+    height: 500px;
+    width: 300px;
+}
+.formulario .container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.formulario form{    
+    position: absolute;
+    top: 100px;
+    left: 20px;   
+}
+.formulario .container img{
+    position: absolute;
+    top: 20px;
+    width: 25%;
+}
+.formulario .container h1{
+    position: absolute;
+    top: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.formulario form input{
+    background: #EDEDED;
+    text-decoration: none;
+    border: #fff;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    margin: 10px;
+    padding: 12px;
+    margin-left: 30px;
+    border-radius: 2px;
+    transition: 0.25s;
+    
+  
+    
+}
+.formulario form input:hover{
+    background: #EDEDED;
+
+}
+
+.formulario form input:focus{
+    
+    background: rgb(255, 255, 255);
+
+}
+.formulario form input::placeholder{
+    font-size: 8px;
+    color: #8a8a8a;
+    transition: 0.25s;
+    font-weight: bold;
+
+}
+.formulario form input:focus::placeholder{
+    font-weight: bold;
+    visibility: visible;
+    font-size: 8px;
+    color: #8a8a8a;
+    transform: translatex(-8px) translatey(-160%);
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.formulario .botoes{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-gap: 5px;
+    position: absolute;
+    top: 220px;
+    margin: auto;
+    font-size: 15px;
+    
+}
+.formulario .botoes #facebook{
+    background: #1877F2;
+    color: #FFFFFF;
+    padding: 3px 25px;
+    transition: 0.25s;
+    border-style:solid;
+    border-width:1px;
+    border-color: #115ab9;
+    border-radius: 3px;
+}
+.formulario .botoes #facebook:hover{
+    background: #115ab9;
+}
+.formulario .botoes #google{
+    background: 
+    linear-gradient(to bottom left,transparent 49%,#fbbc05 50%) 0 20%/50% 50%,
+    linear-gradient(to top    left,transparent 49%,#fbbc05 50%) 0 80%/48% 40%,
+    linear-gradient(-20deg ,transparent 53%,#ea4335 20%),
+    linear-gradient( 20deg ,transparent 46%,#4285f4 40%),
+    #34a853;
+    background-repeat:no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+     color: transparent;
+    -webkit-text-fill-color: transparent;
+    padding: 3px 25px;
+    border-radius: 3px;
+    transition: 0.25s;
+    border-style:solid;
+    border-width:1px;
+    border-color: #c4c4c4;
+}
+
+
+
+.formulario .botoes #apple{
+    background: #000000;
+    color: #FFFFFF;
+    padding: 3px 25px;
+    border-radius: 3px;
+    transition: 0.25s;
+}
+.formulario .botoes #apple:hover{
+    background: #303030;
+
+}
+.check{
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+.chk input {
+    display: none;
+}
+
+.chk span {
+    width: 13px;
+    height: 13px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-color: #B9B9B9;
+    color: #B9B9B9;
+    transition: 0s;
+    text-align: center;
+}
+
+.chk input:checked + span {
+    background-color: #D44345;
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    text-align: center;
+}
+.manter{
+    position: absolute;
+    top: 259px;
+    left: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000000;
+    pointer-events: none;
+}
+.enviar{
+    position: absolute;
+    top: 340px;
+
+}
+.enviar button{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid #DDD;
+    color: #DDD;
+    background: #D44345;
+    font-size: 20px;
+}
+.enviar a{
+    color: #DDD;
+}
+.enviar button:hover{
+    color: #DDD;
+    background: #a13133;
+
+}
+
+
+.conta{
+    position: absolute;
+    top: 450px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 8px;
+}   
+
+.conta a{
+    color: #B9B9B9;
+    align-content: center;
+    position: relative;
+    display: block;
+    transition: 0s;
+}
+.conta a:hover{
+    color: #000000;
+
+}
+.conta #create{
+    margin-left: 40px;
+}
+.version{
+    position: absolute;
+    top:460px;
+    left: 250px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.version a{
+    color:#B9B9B9;
+    transition: 0s;
+}
+.version a:hover{
+    color: #000000;
+}
+.alert span{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 320px;
+    font-size: 15px;
+    width: 30px; 
+    height: 30px; 
+    background: #C94ED9; 
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: 0.25s;
+}
+
+.alert i{
+    position: absolute;
+    top: 33px;
+    left: 332px;
+    font-size: 15px;
+    color: #000000;
+    pointer-events: none;
+}
+.alert span:hover{
+    background: #873492; 
+    
+}
+.alert .conteudo{
+    display: block;
+    position: absolute;
+    background: #F9F9F9;
+    width: 250px;
+    height: 300px;
+    left: 370px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 20px;
+}
+.alert .conteudo h2{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+    display: block;
+}
+.alert .conteudo i{
+    margin-left: 14px;
+    position: absolute;
+    left: 5px;
+    top:38px;
+    color:#B9B9B9;
+    font-size: 10px;
+}
+.alert .conteudo h3{
+    margin-left: 14px;
+    color:#B9B9B9;
+}
+.alert .conteudo p{
+    font-weight: 600;
+}
+.alert:hover .conteudo{
+   opacity: 1;
+}
+.user{
+    display: inline-block;
+    position: absolute;
+    background: #00000063;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    left: 85em;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 7px 19px 4px rgba(0,0,0,0.53); 
+    box-shadow: 2px 7px 19px 4px rgba(0,0,0,0.53);
+}
+.user a{
+    top: 4px;
+    color: #B9B9B9;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    font-size: 19px;
+    transition: 0.25s;
+}
+.user:hover a:hover{
+    color: #ffffff;
+}
