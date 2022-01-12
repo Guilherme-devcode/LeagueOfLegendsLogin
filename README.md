@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Readme" title="Readme GIF" src="./public/img/banner.png" />
+    <img alt="Readme" title="Readme GIF" src="screen.png" />
 </p>
 
 <h1 align="center">Tela de login league of legends</h1>
