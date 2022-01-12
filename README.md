@@ -23,15 +23,6 @@ A replicação da tela de autenticação do jogo "league of legends" via HTML & 
 - [x] Video interativo como interface
 - [x] Animação com botões
 
-### Demo
-<h1 align="center">
-    <img alt="Tela de login league of legends" title="Tela de login league of legends" src="./public/img/demo.gif" />
-</h1>
-
-<p align="right">
-<sub>(Preview)</sub>
-</p>
-
 ### Tecnologias
 
 As seguintes ferramentas 🛠 foram usadas na construção do projeto:
