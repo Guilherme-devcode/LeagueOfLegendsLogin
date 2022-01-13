@@ -7,9 +7,7 @@
 <p align="center">
     <a href="#sobre">Sobre</a> • 
     <a href="#features">Features</a> • 
-    <a href="#demo">Demo</a> •  
     <a href="#tecnologias">Tecnologias</a> • 
-    <a href="#licenca">Lincença</a> • 
     <a href="#autor">Autor</a> 
 </p>
 
@@ -17,7 +15,7 @@
 
 A replicação da tela de autenticação do jogo "league of legends" via HTML & CSS.
 
-### Caracteristicas principais
+### Features
 
 - [x] Inputs para inserir E-mail e senha
 - [x] Video interativo como interface
